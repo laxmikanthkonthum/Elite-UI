@@ -1,8 +1,6 @@
 @import url(/style.css);
-
 .btn{
-padding: 0.5rem;
-
+    padding: 0.5rem;
 }
 .btn-round{
     border-radius: 1rem;

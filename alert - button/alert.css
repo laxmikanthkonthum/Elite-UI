@@ -11,17 +11,17 @@
     font-weight: normal;
     margin: 0.2rem;
 }
+.alert-colored{
+    color: var(--white);
+}
 .alert-success{
     background-color: var(--green);
-    color: var(--white);
+}
+.alert-error{
+    background-color: var(--red);
 }
 .alert-warning{
-    background-color: var(--red);
-    color: var(--white);
-}
-.alert-info{
     background-color: var(--orange);
-    color: var(--white);
 }
 .alert-border{
     border: 2px solid var(--green);
