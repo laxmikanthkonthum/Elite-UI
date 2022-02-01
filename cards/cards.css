@@ -1,0 +1,63 @@
+@import url(/style.css);
+@import url(/avatar-badge/badge/badge.css);
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+  }
+  .card-with-badges,.text-over-card,.text-only-card,.horizontal-card,.card-dismiss{
+    background-color: whitesmoke;
+     width: 20rem ; 
+    border: double 5px rgb(102, 98, 92);
+    padding: 1rem;
+  }
+  .card-image > img{
+    height: 15rem;
+    width: 20rem ;
+  }
+img{
+    height: 15rem;
+    width: 20rem ;
+  }
+  header{
+    font-size: large;
+    font-weight: bolder;
+  }
+  .actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .actions  p{
+    font-size: 0.9rem;
+    color: blueviolet;
+    padding: 0.3em;
+  }
+  .actions i{
+    padding: 0.3em;
+  }
+.main-container:hover, .actions > p:hover, .actions > i:hover{
+      background-color: lightgray;
+  }
+
+.text-over-img{
+    position: relative;
+}
+.text-overlay{
+    position: absolute;
+    bottom: 3rem;
+}
+.horizontal-img > img{
+    height: 7rem;
+  width: 9rem ;
+}
+.main-container.horizontal{
+    display: flex;
+}
+.dismiss-icon{
+    color: red;
+}
+  
+  
