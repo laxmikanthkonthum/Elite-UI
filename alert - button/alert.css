@@ -1,0 +1,30 @@
+@import url(/style.css);
+
+.alert-container{
+    display: flex;
+    flex-direction: column;
+}
+.alert{
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    width: max-content;
+    font-weight: normal;
+    margin: 0.2rem;
+}
+.alert-colored{
+    color: var(--white);
+}
+.alert-success{
+    background-color: var(--green);
+}
+.alert-error{
+    background-color: var(--red);
+}
+.alert-warning{
+    background-color: var(--orange);
+}
+.alert-border{
+    border: 2px solid var(--green);
+    color: var(--green);
+    background-color: var(--white);
+}

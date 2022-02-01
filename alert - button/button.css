@@ -1,0 +1,22 @@
+@import url(/style.css);
+.btn{
+    padding: 0.5rem;
+}
+.btn-round{
+    border-radius: 1rem;
+}
+.primary-btn{
+    background-color: var(--primary);
+    color: var(--white);
+}
+.secondary-btn{
+    background-color: var(--secondary);
+}
+.link-btn{
+   text-decoration: none;
+   color: inherit;
+}
+.float-btn{
+    border-radius: 50%;
+    padding: 0.8rem;
+}
