@@ -1,0 +1,21 @@
+@import url(/style.css);
+
+.avatar{
+    display: flex;
+    align-items: center;
+}
+.avatar-circular{
+    border-radius: 50%;
+}
+.avatar-sm{
+    height: 2rem;
+    width: 2rem;
+}
+.avatar-md{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+.avatar-lg{
+    height: 5rem;
+    width: 5rem;
+}
