@@ -3,24 +3,19 @@
 .avatar{
     display: flex;
     align-items: center;
-    margin: 5px;
 }
 .avatar-circular{
     border-radius: 50%;
-    padding: 5px;
 }
-.avatar-s{
+.avatar-sm{
     height: 2rem;
     width: 2rem;
 }
-.avatar-m{
+.avatar-md{
     height: 3.5rem;
     width: 3.5rem;
 }
-.avatar-l{
+.avatar-lg{
     height: 5rem;
     width: 5rem;
-}
-.avatar.square-avatar > * {
-    padding: 5px;
 }

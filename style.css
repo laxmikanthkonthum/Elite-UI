@@ -10,3 +10,12 @@ body{
     background-color: #fef08a;
 }
 
+:root {
+    --red: #FF0000;
+    --green: #008000;
+    --light-blue: #00ffd5    ;
+    --black: #000000;
+    --orange: #ffa500;
+    --purple: #800080;
+}
+

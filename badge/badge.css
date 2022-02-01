@@ -26,44 +26,43 @@
     text-align: center;
 }
 .badge-red{
-    background-color: red;
+    background-color: var(--red);
 }
 .badge-green{
-    background-color: green;
+    background-color: var(--green);
 }
 .badge-black{
-    background-color: black;
+    background-color: var(--black);
 }
 .text{
-    background-color: cadetblue;
+    background-color: var(--light-blue);
     width: max-content;
     height: max-content; 
     padding: 0.3rem;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     margin: 0;
 }
 .badge-purple{
-    /* top: -8px; */
-    background-color: purple;
+    background-color: var(--purple);
 }
 .avatar-with-status{
     position: relative ;
     display: inline-block;
 }
 .status{
-   height: 8px;
-   width: 8px;
+   height: 0.5rem;
+   width: 0.5rem;
    border-radius: 50%;
    position: absolute;
-   bottom: 0.6rem;
-   right: 0.3rem;
+   bottom: 0.2rem;
+   right: 0.1rem;
 }
 .status-green{
-    background-color: green;
+    background-color: var(--green);
 }
 .status-orange{
-    background-color: orange;
+    background-color: var(--orange);
 }
 .status-red{
-    background-color: red;
+    background-color: var(--red);
 }
