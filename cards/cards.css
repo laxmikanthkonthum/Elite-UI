@@ -1,0 +1,83 @@
+@import url(/style.css);
+@import url(/avatar-badge/badge/badge.css);
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: var(--secondary-bg);
+    width: 20rem;
+    border: double 5px var(--secondary);
+    padding: 1rem;
+}
+
+.card-image>img {
+    height: 15rem;
+    width: 20rem;
+}
+
+header {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions p {
+    font-size: 0.9rem;
+    color: var(--primary);
+    padding: 0.3em;
+}
+
+.actions i {
+    padding: 0.3em;
+}
+
+.actions>p:hover,
+.actions>i:hover,
+.actions>.badge-on-icon:hover {
+    background-color: var(--secondary);
+    cursor: pointer;
+}
+
+.text-over-img {
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 3rem;
+}
+
+.horizontal-img>img {
+    height: 7rem;
+    width: 9rem;
+}
+
+.main-container.horizontal {
+    display: flex;
+}
+
+.dismiss-icon {
+    color: var(--green);
+    padding: 1rem;
+}
+
+.dismiss {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.card-with-shadow {
+    box-shadow: 1rem 1rem var(--secondary);
+}
