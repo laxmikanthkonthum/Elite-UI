@@ -6,20 +6,20 @@
     font-weight: 600;
 }
 
-body{
+body {
     background-color: var(--background);
 }
 
 :root {
-    --background : #fef9c3;
+    --background: #fef9c3;
     --red: #FF0000;
     --green: #008000;
-    --light-blue: #00ffd5    ;
+    --light-blue: #00ffd5;
     --black: #000000;
     --orange: #ffa500;
     --purple: #800080;
     --white: #ffffff;
     --primary: #8b5cf6;
     --secondary: #d3d3d3;
+    --secondary-bg: #F5F5F5;
 }
-

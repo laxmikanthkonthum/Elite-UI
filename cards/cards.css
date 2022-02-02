@@ -1,63 +1,91 @@
 @import url(/style.css);
 @import url(/avatar-badge/badge/badge.css);
-.card-container{
+
+.card-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;    
-  }
-  .card-with-badges,.text-over-card,.text-only-card,.horizontal-card,.card-dismiss{
-    background-color: whitesmoke;
-     width: 20rem ; 
-    border: double 5px rgb(102, 98, 92);
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: var(--secondary-bg);
+    width: 20rem;
+    border: double 5px var(--secondary);
     padding: 1rem;
-  }
-  .card-image > img{
+    margin: 2rem;
+}
+
+.card-image>img {
     height: 15rem;
-    width: 20rem ;
-  }
-img{
+    width: 20rem;
+}
+
+img {
     height: 15rem;
-    width: 20rem ;
-  }
-  header{
+    width: 20rem;
+}
+
+header {
     font-size: large;
     font-weight: bolder;
-  }
-  .actions{
+}
+
+.actions {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-  }
-  .actions  p{
-    font-size: 0.9rem;
-    color: blueviolet;
-    padding: 0.3em;
-  }
-  .actions i{
-    padding: 0.3em;
-  }
-.main-container:hover, .actions > p:hover, .actions > i:hover{
-      background-color: lightgray;
-  }
+}
 
-.text-over-img{
+.actions p {
+    font-size: 0.9rem;
+    color: var(--primary);
+    padding: 0.3em;
+}
+
+.actions i {
+    padding: 0.3em;
+}
+
+.main-container:hover,
+.actions>p:hover,
+.actions>i:hover,
+.dismiss:hover,
+.actions>.badge-on-icon:hover {
+    background-color: var(--secondary);
+    cursor: pointer;
+}
+
+.text-over-img {
     position: relative;
 }
-.text-overlay{
+
+.text-overlay {
     position: absolute;
     bottom: 3rem;
 }
-.horizontal-img > img{
+
+.horizontal-img>img {
     height: 7rem;
-  width: 9rem ;
+    width: 9rem;
 }
-.main-container.horizontal{
+
+.main-container.horizontal {
     display: flex;
 }
-.dismiss-icon{
-    color: red;
+
+.dismiss-icon {
+    color: var(--green);
+    padding: 1rem;
 }
-  
-  
+
+.dismiss {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.card-with-shadow {
+    box-shadow: 1rem 1rem var(--secondary);
+}
