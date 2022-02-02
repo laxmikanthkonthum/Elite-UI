@@ -23,3 +23,8 @@ body {
     --secondary: #d3d3d3;
     --secondary-bg: #F5F5F5;
 }
+
+.hover-class:hover {
+    background-color: var(--secondary);
+    cursor: pointer;
+}

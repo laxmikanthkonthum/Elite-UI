@@ -20,11 +20,6 @@
     width: 20rem;
 }
 
-img {
-    height: 15rem;
-    width: 20rem;
-}
-
 header {
     font-size: large;
     font-weight: bolder;
@@ -47,10 +42,8 @@ header {
     padding: 0.3em;
 }
 
-.main-container:hover,
 .actions>p:hover,
 .actions>i:hover,
-.dismiss:hover,
 .actions>.badge-on-icon:hover {
     background-color: var(--secondary);
     cursor: pointer;
