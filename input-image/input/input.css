@@ -1,0 +1,6 @@
+@import url("/alert - button/button.css");
+.signup-box{
+    background-color: var(--secondary-bg);
+    padding: 2rem;
+    width: fit-content;    
+}
