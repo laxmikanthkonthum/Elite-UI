@@ -1,1 +1,26 @@
 @import url(/style.css);
+@import url("/avatar-badge/avatar/avatar.css");
+@import url("/text-utilities and Lists/typography/typography.css");
+
+
+.list-group {
+    background-color: var(--secondary-bg);
+    width: 15rem;
+}
+
+.list-items {
+    margin: 0;
+    border: solid 1px var(--primary);
+    padding: 0.2rem;
+}
+
+.list-stacked {
+    display: flex;
+    gap: 1rem;
+}
+
+.list-stacked-content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}

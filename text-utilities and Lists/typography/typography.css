@@ -1,16 +1,29 @@
 @import url(/style.css);
-.light-weight{
-    font-weight: 300;
+
+.light-weight {
+    font-weight: 100;
 }
-.regular-weight{
+
+.regular-weight {
     font-weight: 400;
 }
-.semibold-weight{
+
+.semibold-weight {
     font-weight: 600;
 }
-.bold-weight{
+
+.bold-weight {
     font-weight: 700;
 }
-.black-weight{
+
+.black-weight {
     font-weight: 900;
+}
+
+.text-gray {
+    color: var(--gray);
+}
+
+.text-centered {
+    text-align: center;
 }

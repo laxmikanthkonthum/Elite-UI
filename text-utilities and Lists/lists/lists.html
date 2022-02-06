@@ -1,18 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Laxmikanth Konthum" />
     <meta name="description" content="Elite UI is a library to provide ready-made components to the user" />
+    <link href="lists.css" rel="stylesheet">
     <title>Lists</title>
 </head>
+
 <body>
-    <div class = "list-group">
-        <ul class = "list-items">Item1</ul>
-        <ul class = "list-items">Item2</ul>
-        <ul class = "list-items">Item3</ul>
+    <div class="normal-list">
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </div>
+    <div class="list-group text-centered">
+        <ul class="list-items hover-class">Item1</ul>
+        <ul class="list-items hover-class">Item2</ul>
+        <ul class="list-items hover-class">Item3</ul>
+    </div>
+    <div class="list-group">
+        <ul class="list-items  list-stacked hover-class">
+            <div class="list-stacked-img">
+                <img class="avatar avatar-sm" src="/src\avatar.jpg" alt="avatar">
+            </div>
+            <div class="list-stacked-content">
+                <span>Dummy Name</span>
+                <span class="text-gray">CEO</span>
+            </div>
+        </ul>
+        <ul class="list-items  list-stacked hover-class text-centered">
+            <div class="list-stacked-img">
+                <img class="avatar avatar-sm" src="/src\avatar.jpg" alt="avatar">
+            </div>
+            <div class="list-stacked-content">
+                <span>Dummy Name</span>
+                <span class="text-gray">CTO</span>
+            </div>
+        </ul>
+        <ul class="list-items  list-stacked hover-class">
+            <div class="list-stacked-img">
+                <img class="avatar avatar-sm" src="/src\avatar.jpg" alt="avatar">
+            </div>
+            <div class="list-stacked-content">
+                <span>Dummy Name</span>
+                <span class="text-gray">CFO</span>
+            </div>
+        </ul>
     </div>
 </body>
+
 </html>
