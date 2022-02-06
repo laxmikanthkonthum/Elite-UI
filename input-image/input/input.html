@@ -26,6 +26,23 @@
             Cancel
         </button>
     </form>
+    <form class="signup-box">
+        <label for="fullname">Full Name: </label><br>
+        <input type="text" id="fullname" name="sign-up" size="24" autocomplete="name" required><br><br>
+        <label for="email">Email Address: </label><br>
+        <input type="email" id="email" name="sign-up" size="24" autocomplete="email" required><br><br>
+        <label for="password">Create Password: </label><br>
+        <input type="password" id="password" name="sign-up" size="24" minlength="8" maxlength="16" required><br><br>
+        <input type="checkbox" id="tnc" class="sign-up" required>
+        <label for="tnc">I agree to the <a href="#">terms</a></label><br> <br>
+        <div class="alert alert-border alert-warning">
+            <i class="far fa-check-circle"></i> Login Success!
+        </div>
+        <input type="submit" value="Submit" class="btn primary-btn">
+        <button class="btn secondary-btn">
+            Cancel
+        </button>
+    </form>
 </body>
 
 </html>

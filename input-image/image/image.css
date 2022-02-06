@@ -1,8 +1,8 @@
 @import url("/style.css");
 
 .round-img{
-    height: 8rem;
-    width: 5rem;
+    height: 6rem;
+    width: 6rem;
     border-radius: 50%;
 }
 .responsive-img{
