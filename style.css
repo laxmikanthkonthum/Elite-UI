@@ -28,3 +28,24 @@ body {
     background-color: var(--secondary);
     cursor: pointer;
 }
+
+.text-size-xl{
+    font-size: 3rem;
+    line-height: 4rem;
+}
+.text-size-lg{
+    font-size: 2rem;
+    line-height: 2.5rem ;
+}
+.text-size-md{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.text-size-sm{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.text-size-xs{
+    font-size: 0.5rem;
+    line-height: 1rem;
+}

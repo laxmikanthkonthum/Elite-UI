@@ -1,0 +1,16 @@
+@import url(/style.css);
+.light-weight{
+    font-weight: 300;
+}
+.regular-weight{
+    font-weight: 400;
+}
+.semibold-weight{
+    font-weight: 600;
+}
+.bold-weight{
+    font-weight: 700;
+}
+.black-weight{
+    font-weight: 900;
+}
