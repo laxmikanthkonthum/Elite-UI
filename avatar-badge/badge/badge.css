@@ -1,5 +1,5 @@
 @import url(/style.css);
-@import url(/avatar\avatar.css);
+@import url("/avatar-badge/avatar/avatar.css");
 
 .icon-container{
     width: 30%;
