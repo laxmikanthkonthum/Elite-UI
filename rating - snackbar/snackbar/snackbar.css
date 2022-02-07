@@ -1,0 +1,14 @@
+@import url(/style.css);
+
+.snack {
+    position: fixed;
+    color: var(--secondary-bg);
+    background-color: #44403c;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.snackbar-msg {
+    color: var(--primary);
+    text-decoration: none;
+}
