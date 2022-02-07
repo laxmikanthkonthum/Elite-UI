@@ -29,23 +29,27 @@ body {
     cursor: pointer;
 }
 
-.text-size-xl{
+.text-xl {
     font-size: 3rem;
     line-height: 4rem;
 }
-.text-size-lg{
+
+.text-lg {
     font-size: 2rem;
-    line-height: 2.5rem ;
+    line-height: 2.5rem;
 }
-.text-size-md{
+
+.text-md {
     font-size: 1.5rem;
     line-height: 2rem;
 }
-.text-size-sm{
+
+.text-sm {
     font-size: 1rem;
     line-height: 1.5rem;
 }
-.text-size-xs{
+
+.text-xs {
     font-size: 0.5rem;
     line-height: 1rem;
 }

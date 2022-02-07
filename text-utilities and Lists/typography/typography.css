@@ -1,22 +1,22 @@
 @import url(/style.css);
 
-.light-weight {
+.text-light {
     font-weight: 100;
 }
 
-.regular-weight {
+.text-regular {
     font-weight: 400;
 }
 
-.semibold-weight {
+.text-semibold {
     font-weight: 600;
 }
 
-.bold-weight {
+.text-bold {
     font-weight: 700;
 }
 
-.black-weight {
+.text-black {
     font-weight: 900;
 }
 
