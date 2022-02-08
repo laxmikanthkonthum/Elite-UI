@@ -1,0 +1,18 @@
+@import url(/style.css);
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 2.5rem;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.hero-logo{
+    width: 8rem;
+}
+.nav-links{
+    width: 20%;
+    display: flex ;
+    justify-content: space-evenly;
+}
