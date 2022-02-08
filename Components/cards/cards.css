@@ -1,5 +1,4 @@
 @import url(/style.css);
-@import url(/avatar-badge/badge/badge.css);
 
 .card-container {
     display: flex;
@@ -17,7 +16,7 @@
 
 .card-image>img {
     height: 15rem;
-    width: 20rem;
+    width: 18rem;
 }
 
 header {
@@ -55,7 +54,7 @@ header {
 
 .text-overlay {
     position: absolute;
-    bottom: 3rem;
+    bottom: 4rem;
 }
 
 .horizontal-img>img {
