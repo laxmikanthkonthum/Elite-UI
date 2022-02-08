@@ -18,6 +18,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 body {
@@ -43,6 +45,8 @@ body {
 .hover-class:hover {
     background-color: var(--secondary);
     cursor: pointer;
+    padding: 0.2rem;
+    border-radius: 1rem;
 }
 
 .text-xl {
