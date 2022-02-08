@@ -22,6 +22,7 @@ body {
     --secondary: #d3d3d3;
     --secondary-bg: #F5F5F5;
     --gray: #808080;
+    --snackbar-bg: #44403c;
 }
 
 .hover-class:hover {
