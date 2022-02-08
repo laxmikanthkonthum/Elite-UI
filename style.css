@@ -22,6 +22,7 @@ body {
     --secondary: #d3d3d3;
     --secondary-bg: #F5F5F5;
     --gray: #808080;
+    --snackbar-bg: #44403c;
 }
 
 .hover-class:hover {
@@ -52,4 +53,34 @@ body {
 .text-xs {
     font-size: 0.5rem;
     line-height: 1rem;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+.bottom-center {
+    bottom: 0;
+    left: 40%
+}
+
+.top-center {
+    top: 0;
+    left: 40%
 }
