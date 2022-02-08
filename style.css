@@ -3,6 +3,9 @@
 
 * {
     font-family: 'Quicksand', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
 }
 
 body {
@@ -83,4 +86,15 @@ body {
 .top-center {
     top: 0;
     left: 40%
+}
+
+.top{
+    top:0;
+    left:0;
+    right:0;
+}
+
+.link-plain{
+    text-decoration: none;
+    color: inherit;
 }
