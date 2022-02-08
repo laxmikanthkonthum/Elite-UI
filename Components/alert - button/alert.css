@@ -1,29 +1,35 @@
 @import url(/style.css);
 
-.alert-container{
+.alert-container {
     display: flex;
     flex-direction: column;
 }
-.alert{
+
+.alert {
     padding: 0.5rem;
     border-radius: 0.2rem;
     width: max-content;
     font-weight: normal;
     margin: 0.2rem;
 }
-.alert-colored{
+
+.alert-colored {
     color: var(--white);
 }
-.alert-success{
+
+.alert-success {
     background-color: var(--green);
 }
-.alert-error{
+
+.alert-error {
     background-color: var(--red);
 }
-.alert-warning{
+
+.alert-warning {
     background-color: var(--orange);
 }
-.alert-border{
+
+.alert-border {
     border: 2px solid var(--green);
     color: var(--green);
     background-color: var(--white);
