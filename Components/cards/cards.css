@@ -11,12 +11,12 @@
     background-color: var(--secondary-bg);
     width: 20rem;
     border: double 5px var(--secondary);
-    padding: 1rem;
+    margin: auto;
 }
 
 .card-image>img {
-    height: 15rem;
-    width: 18rem;
+    height: 12rem;
+    width: 100%;
 }
 
 header {
@@ -29,6 +29,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .actions p {

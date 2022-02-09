@@ -1,0 +1,29 @@
+@import url(style.css);
+body{
+    display: grid;
+    grid-template-columns: 15rem 1fr;
+    grid-template-areas:
+    "nav nav"
+    "aside main"
+    "aside main"
+    "aside main"
+}
+nav{
+    grid-area: nav;
+}
+aside{
+    width: 18rem;
+    grid-area: aside;
+    margin-top: 30px;
+    height: 100vh;
+    overflow : scroll;
+    overflow-x: hidden;
+}
+main{
+    margin-top: 30px;
+    grid-area: main;
+    margin-left: 4rem;
+}
+main > *{
+    padding: 1rem;
+}

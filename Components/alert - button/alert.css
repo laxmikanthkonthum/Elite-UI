@@ -1,5 +1,5 @@
 @import url(/style.css);
-
+@import url(/doc.css);
 .alert-container {
     display: flex;
     flex-direction: column;
