@@ -6,6 +6,7 @@
     width: 100%;
     padding: 1rem 2.5rem;
     align-items: center;
+    border-radius: 5px;
 }
 
 .hero-logo {
@@ -16,4 +17,8 @@
     width: 40%;
     display: flex;
     justify-content: space-evenly;
+}
+
+.nav-colored{
+    background-color: #e11d48;
 }

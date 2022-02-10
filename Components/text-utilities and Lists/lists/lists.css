@@ -6,10 +6,14 @@
     width: 15rem;
 }
 
+.list-group > ul{
+    border: solid 1px var(--primary);
+}
+
+
 .list-items {
     margin: 0;
-    border: solid 1px var(--primary);
-    padding: 0.2rem;
+    padding: 0.7rem;
 }
 
 .list-stacked {
@@ -21,4 +25,9 @@
     text-align: left;
     display: flex;
     flex-direction: column;
+}
+
+.list-transparent{
+    width: 15rem;
+    background-color: inherit;
 }

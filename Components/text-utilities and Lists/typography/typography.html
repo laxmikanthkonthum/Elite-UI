@@ -2,34 +2,89 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Laxmikanth Konthum" />
-    <meta name="description" content="Elite UI is a library to provide ready-made components to the user" />
-    <title>Typography</title>
-    <link href="typography.css" rel="stylesheet">
-    <link href="/style.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Laxmikanth Konthum" />
+        <meta name="description" content="Elite UI is a library to provide ready-made components to the user" />
+        <title>Typography</title>
+        <link href="typography.css" rel="stylesheet">
+        <link href="/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1 class="text-xl"> Headine 1 </h1>
-    <h2 class="text-lg"> Headine 2 </h2>
-    <h3 class="text-md"> Headine 3 </h3>
-    <h4 class="text-sm"> Headine 4 </h4>
-    <h5 class="text-xs"> Headine 5 </h5>
-    <p class="text-xl"> Text 1 </p>
-    <p class="text-lg"> Text 2 </p>
-    <p class="text-md"> Text 3 </p>
-    <p class="text-sm"> Text 4 </p>
-    <p class="text-xs"> Text 5 </p>
-    <p class="text-light"> LIGHT 100</p>
-    <p class="text-regular"> REGULAR 400</p>
-    <p class="text-semibold"> SEMIBOLD 600 </p>
-    <p class="text-bold-"> BOLD 700</p>
-    <p class="text-black"> BLACK 900</p>
-    <p class="text-gray">This is gray text</p>
-    <p class="text-centered">This is centered text</p>
+        <nav class="nav-bar top">
+                <a href="/index.html" class="link-plain"><img class="hero-logo hover-class" src="/src/hero-logo.png"
+                                alt="logo"></a>
+                <div class="nav-links">
+                        <a class="link-plain hover-class" href="/doc.html">Documentation</a>
+                        <a class="link-plain hover-class" href="https://github.com/laxmikanthkonthum"><i
+                                        class="fab fa-github"></i></a>
+                        <a class="link-plain hover-class"
+                                href="https://www.linkedin.com/in/laxmikanth-konthum-781b27158/"><i
+                                        class="fab fa-linkedin"></i></a>
+                </div>
+        </nav>
+        <aside>
+                <div class="list-transparent text-centered">
+                        <ul class="list-items hover-class"><a href = "/doc.html" class="link-plain">Introduction</a></ul>
+                        <ul class="list-items text-bold ">Components</ul>
+                        <ul class="list-items hover-class"> <a class="link-plain"
+                                        href="/Components/alert - button/alert.html">
+                                        Alert</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/alert - button/button.html">Button</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/avatar-badge/avatar/avatar.html">Avatar</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/avatar-badge/badge/badge.html">Badge</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/cards/cards.html">Cards</a>
+                        </ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/input-image/input/input.html">Input</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/input-image/image/image.html">Image</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/navbar/navbar.html">Navigation</a>
+                        </ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/rating - snackbar/rating/rating.html">Rating</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/rating - snackbar/snackbar/snackbar.html">Snackbar</a></ul>
+                        <ul class="list-items link-active"><a class="link-plain"
+                                        href="/Components/text-utilities and Lists/typography/typography.html">Typography</a>
+                        </ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/text-utilities and Lists/lists/lists.html">Lists</a></ul>
+        </aside>
+
+        <main>
+
+                <h1>Typography</h1>
+                <p> Listed below are various sizes of headings and normal text and diferent font weights as well</p>
+                <h1 class="text-xl"> Headine 1 </h1>
+                <h2 class="text-lg"> Headine 2 </h2>
+                <h3 class="text-md"> Headine 3 </h3>
+                <h4 class="text-sm"> Headine 4 </h4>
+                <h5 class="text-xs"> Headine 5 </h5>
+                <p class="text-xl"> Text 1 </p>
+                <p class="text-lg"> Text 2 </p>
+                <p class="text-md"> Text 3 </p>
+                <p class="text-sm"> Text 4 </p>
+                <p class="text-xs"> Text 5 </p>
+                <p class="text-centered">This is centered text</p>
+                <p class="text-light"> LIGHT 100</p>
+                <p class="text-regular"> REGULAR 400</p>
+                <p class="text-semibold"> SEMIBOLD 600 </p>
+                <p class="text-bold-"> BOLD 700</p>
+                <p class="text-black"> BLACK 900</p>
+                <p class="text-gray">This is gray text</p>
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522text-xl%2522%253E%2520Headine%25201%2520%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522text-lg%2522%253E%2520Headine%25202%2520%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522text-md%2522%253E%2520Headine%25203%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522text-sm%2522%253E%2520Headine%25204%2520%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522text-xs%2522%253E%2520Headine%25205%2520%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-xl%2522%253E%2520Text%25201%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-lg%2522%253E%2520Text%25202%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-md%2522%253E%2520Text%25203%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-sm%2522%253E%2520Text%25204%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-xs%2522%253E%2520Text%25205%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-light%2522%253E%2520LIGHT%2520100%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-regular%2522%253E%2520REGULAR%2520400%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-semibold%2522%253E%2520SEMIBOLD%2520600%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-bold-%2522%253E%2520BOLD%2520700%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-black%2522%253E%2520BLACK%2520900%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-gray%2522%253EThis%2520is%2520gray%2520text%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-centered%2522%253EThis%2520is%2520centered%2520text%253C%252Fp%253E"
+                        style="width: 100%; height: 515px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                </iframe>
+        </main>
 </body>
 
 </html>

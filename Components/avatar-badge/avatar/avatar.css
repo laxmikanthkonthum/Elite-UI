@@ -23,3 +23,6 @@
     height: 5rem;
     width: 5rem;
 }
+.avatar > img,.avatar > div{
+    margin: 1rem;
+}

@@ -2,30 +2,86 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Laxmikanth Konthum" />
-    <meta name="description" content="Elite UI is a library to provide ready-made components to the user" />
-    <link href="rating.css" rel="stylesheet">
-    <title>Rating</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Laxmikanth Konthum" />
+        <meta name="description" content="Elite UI is a library to provide ready-made components to the user" />
+        <link href="rating.css" rel="stylesheet">
+        <title>Rating</title>
 </head>
 
 <body>
-    <div class="star-container">
-        <i class="far fa-star"></i>
-        <i class="far fa-star"></i>
-        <i class="far fa-star"></i>
-        <i class="far fa-star"></i>
-        <i class="far fa-star"></i>
-    </div>
-    <div class="star-container">
-        <i class="fas fa-star rated"></i>
-        <i class="fas fa-star rated"></i>
-        <i class="fas fa-star rated"></i>
-        <i class="fas fa-star rated"></i>
-        <i class="fas fa-star rated"></i>
-    </div>
+        <nav class="nav-bar top">
+                <a href="/index.html" class="link-plain"><img class="hero-logo hover-class" src="/src/hero-logo.png"
+                                alt="logo"></a>
+                <div class="nav-links">
+                        <a class="link-plain hover-class" href="/doc.html">Documentation</a>
+                        <a class="link-plain hover-class" href="https://github.com/laxmikanthkonthum"><i
+                                        class="fab fa-github"></i></a>
+                        <a class="link-plain hover-class"
+                                href="https://www.linkedin.com/in/laxmikanth-konthum-781b27158/"><i
+                                        class="fab fa-linkedin"></i></a>
+                </div>
+        </nav>
+        <aside>
+                <div class="list-transparent text-centered">
+                        <ul class="list-items hover-class"><a href = "/doc.html" class="link-plain">Introduction</a></ul>
+                        <ul class="list-items text-bold ">Components</ul>
+                        <ul class="list-items hover-class"> <a class="link-plain"
+                                        href="/Components/alert - button/alert.html">
+                                        Alert</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/alert - button/button.html">Button</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/avatar-badge/avatar/avatar.html">Avatar</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/avatar-badge/badge/badge.html">Badge</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/cards/cards.html">Cards</a>
+                        </ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/input-image/input/input.html">Input</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/input-image/image/image.html">Image</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/navbar/navbar.html">Navigation</a>
+                        </ul>
+                        <ul class="list-items link-active"><a class="link-plain"
+                                        href="/Components/rating - snackbar/rating/rating.html">Rating</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/rating - snackbar/snackbar/snackbar.html">Snackbar</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/text-utilities and Lists/typography/typography.html">Typography</a>
+                        </ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/text-utilities and Lists/lists/lists.html">Lists</a></ul>
+        </aside>
+        <main>
+                <h1>Rating</h1>
+                <p> Rating is used to take user's opinion in the form of colored stars</p>
+                <p class="text-gray">Below is an example with group of five stars</p>
+                <div class="star-container">
+                        <!-- each "i" element represents one star -->
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                </div>
+                <div class="star-container">
+                        <!-- the rated class is what differentiates empty and rated star -->
+                        <i class="fas fa-star rated"></i>
+                        <i class="fas fa-star rated"></i>
+                        <i class="fas fa-star rated"></i>
+                        <i class="fas fa-star rated"></i>
+                        <i class="fas fa-star rated"></i>
+                </div>
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253C%21--%2520each%2520%2522i%2522%2520element%2520represents%2520one%2520star%2520--%253E%250A%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%253C%21--%2520the%2520rated%2520class%2520is%2520what%2520differentiates%2520empty%2520and%2520rated%2520star%2520--%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rated%2522%253E%253C%252Fi%253E"
+                        style="width: 100%; height: 273px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                </iframe>
+        </main>
 </body>
 
 </html>
