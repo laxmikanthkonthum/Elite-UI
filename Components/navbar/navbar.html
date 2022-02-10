@@ -2,24 +2,81 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Laxmikanth Konthum" />
-    <meta name="description" content="Elite UI is a library to provide ready-made components to the user" />
-    <link href="navbar.css" rel="stylesheet">
-    <title>Navbar</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Laxmikanth Konthum" />
+        <meta name="description" content="Elite UI is a library to provide ready-made components to the user" />
+        <link href="navbar.css" rel="stylesheet">
+        <title>Navbar</title>
 </head>
 
 <body>
-    <nav class="nav-bar top">
-        <a href="#"><img class="hero-logo hover-class" src="/src/hero-logo.png" alt="logo"></a>
-        <div class="nav-links">
-            <a class="link-plain hover-class" href="#"> Docs</a>
-            <a class="link-plain hover-class" href="#"><i class="fab fa-github"></i></a>
-            <a class="link-plain hover-class" href="#"><i class="fab fa-linkedin"></i></a>
-        </div>
-    </nav>
+        <nav class="nav-bar top">
+                <a href="/index.html" class="link-plain"><img class="hero-logo hover-class" src="/src/hero-logo.png"
+                                alt="logo"></a>
+                <div class="nav-links">
+                        <a class="link-plain hover-class" href="#"> Documentation</a>
+                        <a class="link-plain hover-class" href="#"><i class="fab fa-github"></i></a>
+                        <a class="link-plain hover-class" href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+        </nav>
+        <aside>
+                <div class="list-transparent text-centered">
+                        <ul class="list-items">Introduction</ul>
+                        <ul class="list-items text-bold ">Components</ul>
+                        <ul class="list-items hover-class"> <a class="link-plain"
+                                        href="/Components/alert - button/alert.html">
+                                        Alert</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/alert - button/button.html">Button</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/avatar-badge/avatar/avatar.html">Avatar</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/avatar-badge/badge/badge.html">Badge</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/cards/cards.html">Cards</a>
+                        </ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/input-image/input/input.html">Input</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/input-image/image/image.html">Image</a></ul>
+                        <ul class="list-items link-active"><a class="link-plain"
+                                        href="/Components/navbar/navbar.html">Navigation</a>
+                        </ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/rating - snackbar/rating/rating.html">Rating</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/rating - snackbar/snackbar/snackbar.html">Snackbar</a></ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/text-utilities and Lists/typography/typography.html"></a>Typography
+                        </ul>
+                        <ul class="list-items hover-class"><a class="link-plain"
+                                        href="/Components/text-utilities and Lists/lists/lists.html">Lists</a></ul>
+        </aside>
+        <main>
+                <h1>Navigation</h1>
+                <p> A navigation bar (also called a Navbar) is a user interface element within a webpage that contains
+                        links to
+                        other sections of the website</p>
+                <p class="text-gray">Below is an example</p>
+
+                <nav class="nav-bar nav-colored top">
+                        <!-- you can remove the nav-colored class and the navbar will become tranparent  -->
+
+                        <a href="#"><img class="hero-logo hover-class" src="/src/hero-logo.png" alt="logo"></a>
+                        <div class="nav-links">
+                                <a class="link-plain hover-class" href="#"> Docs</a>
+                                <a class="link-plain hover-class" href="#"><i class="fab fa-github"></i></a>
+                                <a class="link-plain hover-class" href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                </nav>
+
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522nav-bar%2520nav-colored%2520top%2522%253E%250A%2520%2520%2520%2520%253C%21--%2520you%2520can%2520remove%2520the%2520nav-colored%2520class%2520and%2520the%2520navbar%2520will%2520become%2520tranparent%2520%2520--%253E%250A%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cimg%2520class%253D%2522hero-logo%2520hover-class%2522%2520src%253D%2522%252Fsrc%252Fhero-logo.png%2522%2520alt%253D%2522logo%2522%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-links%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link-plain%2520hover-class%2522%2520href%253D%2522%2523%2522%253E%2520Docs%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link-plain%2520hover-class%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fab%2520fa-github%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link-plain%2520hover-class%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fab%2520fa-linkedin%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
+                        style="width: 900px; height: 385px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                </iframe>
+        </main>
 </body>
 
 </html>

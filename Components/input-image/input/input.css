@@ -6,3 +6,13 @@
     width: fit-content;
     margin: 1rem;
 }
+
+.signup-box>.alert {
+    margin: auto;
+}
+
+.signup-btns {
+    margin: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+}

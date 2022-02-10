@@ -7,5 +7,9 @@
 }
 
 .responsive-img {
-    width: 60%;
+    width: 100%;
+}
+
+.img-container{
+    width: 30rem;
 }
