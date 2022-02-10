@@ -12,6 +12,7 @@
 @import url('Components/rating - snackbar/snackbar/snackbar.css');
 @import url('Components/text-utilities and Lists/lists/lists.css');
 @import url('Components/text-utilities and Lists/typography/typography.css');
+@import url(/doc.css);
 /* @import url('/homepage.css'); */
 
 * {
@@ -19,8 +20,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 1rem;
-    line-height: 1.5rem;
 }
 
 body {
