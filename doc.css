@@ -15,7 +15,7 @@ aside{
     width: 18rem;
     grid-area: aside;
     margin-top: 30px;
-    height: 100vh;
+    height: 80vh;
     overflow : scroll;
     overflow-x: hidden;
 }
@@ -23,6 +23,9 @@ main{
     margin-top: 30px;
     grid-area: main;
     margin-left: 4rem;
+    height: 80vh;
+    overflow : scroll;
+    overflow-x: hidden;
 }
 main > *{
     padding: 1rem;
