@@ -7,10 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Laxmikanth Konthum" />
         <meta name="description" content="Elite UI is a library to provide ready-made components to the user" />
-        <link href="navbar.css" rel="stylesheet">
-        <link href="/documentation/doc.css" rel="stylesheet">
-        <title>Navbar</title>
+        <title>Alert</title>
         <link rel="icon" type="image/x-icon" href="/src/favicon.ico">
+        <link href="alert.css" rel="stylesheet">
+        <link href="/documentation/doc.css" rel="stylesheet">
 </head>
 
 <body>
@@ -35,7 +35,7 @@
                                 </a>
                                 <li class="list-items text-bold ">Components</li>
                                 <a class="link-plain" href="/Components/alert/alert.html">
-                                        <li class="list-items hover-class">
+                                        <li class="list-items link-active">
                                                 Alert</li>
                                 </a>
                                 <a class="link-plain" href="/Components/button/button.html">
@@ -48,7 +48,7 @@
                                         <li class="list-items hover-class">Badge
                                         </li>
                                 </a>
-                                <a class="link-plain" href="/Components/cards/cards.html">
+                                <a class="link-plain" href="/Components/cards.html">
                                         <li class="list-items hover-class">Cards
                                 </a>
                                 </li>
@@ -59,7 +59,7 @@
                                         <li class="list-items hover-class">Image</li>
                                 </a>
                                 <a class="link-plain" href="/Components/navbar/navbar.html">
-                                        <li class="list-items link-active">Navigation</li>
+                                        <li class="list-items hover-class">Navigation</li>
                                 </a>
                                 <a class="link-plain" href="/Components/rating/rating.html">
                                         <li class="list-items hover-class">Rating</li>
@@ -77,25 +77,30 @@
                         </ul>
         </aside>
         <main>
-                <h1>Navigation</h1>
-                <p> A navigation bar (also called a Navbar) is a user interface element within a webpage that contains
-                        links to
-                        other sections of the website</p>
-                <p class="text-gray">Below is an example</p>
-
-                <nav class="nav-bar nav-colored top">
-                        <!-- you can remove the nav-colored class and the navbar will become tranparent  -->
-
-                        <a href="#"><img class="hero-logo hover-class" src="/src/hero-logo.png" alt="logo"></a>
-                        <div class="nav-links">
-                                <a class="link-plain hover-class" href="#"> Docs</a>
-                                <a class="link-plain hover-class" href="#"><i class="fab fa-github"></i></a>
-                                <a class="link-plain hover-class" href="#"><i class="fab fa-linkedin"></i></a>
+                <h1>Alerts</h1>
+                <p>Alerts are the messages which are displayed to the user to make them aware of the outcomes of there
+                        actions
+                </p>
+                <p class="text-gray">Below are a few examples</p>
+                <div class="alert-container">
+                        <div class="alert alert-colored alert-success">
+                                <i class="far fa-check-circle"></i> Success! You are good to go
                         </div>
-                </nav>
+                        <!-- this can be turned into border model by replacing alert-colored with alert-border -->
+                        <div class="alert alert-colored alert-error">
+                                <i class="fas fa-times"></i> Error! Please try again
+                        </div>
+                        <div class="alert alert-colored alert-warning">
+                                <i class="fas fa-exclamation"></i> Warning! Please review the data
+                        </div>
+                        <div class="alert alert-border alert-warning">
+                                <i class="far fa-check-circle"></i> Success! You are good to go
+                        </div>
+                </div>
+                <p>Each div represents an individual variant</p>
 
-                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522nav-bar%2520nav-colored%2520top%2522%253E%250A%2520%2520%2520%2520%253C%21--%2520you%2520can%2520remove%2520the%2520nav-colored%2520class%2520and%2520the%2520navbar%2520will%2520become%2520tranparent%2520%2520--%253E%250A%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cimg%2520class%253D%2522hero-logo%2520hover-class%2522%2520src%253D%2522%252Fsrc%252Fhero-logo.png%2522%2520alt%253D%2522logo%2522%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-links%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link-plain%2520hover-class%2522%2520href%253D%2522%2523%2522%253E%2520Docs%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link-plain%2520hover-class%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fab%2520fa-github%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link-plain%2520hover-class%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fab%2520fa-linkedin%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
-                        style="width: 900px; height: 385px; border:0; transform: scale(1); overflow:hidden;"
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-colored%2520alert-success%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-check-circle%2522%253E%253C%252Fi%253E%2520Success%21%2520You%2520are%2520good%2520to%2520go%250A%253C%252Fdiv%253E%250A%253C%21--%2520this%2520can%2520be%2520turned%2520into%2520border%2520model%2520by%2520replacing%2520alert-colored%2520with%2520alert-border%2520--%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-colored%2520alert-error%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%2520Error%21%2520Please%2520try%2520again%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-colored%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation%2522%253E%253C%252Fi%253E%2520Warning%21%2520Please%2520review%2520the%2520data%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-border%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-check-circle%2522%253E%253C%252Fi%253E%2520Success%21%2520You%2520are%2520good%2520to%2520go%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 441px; border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                 </iframe>
         </main>

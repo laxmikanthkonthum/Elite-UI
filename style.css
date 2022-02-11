@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 @import url('https://use.fontawesome.com/releases/v5.0.7/css/all.css');
-@import url('Components/alert - button/alert.css');
-@import url('Components/alert - button/button.css');
-@import url('Components/avatar-badge/avatar/avatar.css');
-@import url('Components/avatar-badge/badge/badge.css');
-@import url('Components/cards/cards.css');
-@import url('Components/input-image/image/image.css');
-@import url('Components/input-image/input/input.css');
-@import url('Components/navbar/navbar.css');
-@import url('Components/rating - snackbar/rating/rating.css');
-@import url('Components/rating - snackbar/snackbar/snackbar.css');
-@import url('Components/text-utilities and Lists/lists/lists.css');
-@import url('Components/text-utilities and Lists/typography/typography.css');
+@import url('/Components/alert/alert.css');
+@import url('/Components/button/button.css');
+@import url('/Components/avatar/avatar.css');
+@import url('/Components/badge/badge.css');
+@import url('/Components/cards/cards.css');
+@import url('/Components/image/image.css');
+@import url('/Components/input/input.css');
+@import url('/Components/navbar/navbar.css');
+@import url('/Components/rating/rating.css');
+@import url('/Components/snackbar/snackbar.css');
+@import url('/Components/lists/lists.css');
+@import url('/Components/typography/typography.css');
 
 
 * {

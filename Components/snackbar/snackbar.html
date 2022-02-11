@@ -7,10 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Laxmikanth Konthum" />
         <meta name="description" content="Elite UI is a library to provide ready-made components to the user" />
-        <link href="navbar.css" rel="stylesheet">
-        <link href="/documentation/doc.css" rel="stylesheet">
-        <title>Navbar</title>
+        <title>Snackbar</title>
         <link rel="icon" type="image/x-icon" href="/src/favicon.ico">
+        <link href="snackbar.css" rel="stylesheet">
+        <link href="/documentation/doc.css" rel="stylesheet">
 </head>
 
 <body>
@@ -59,13 +59,13 @@
                                         <li class="list-items hover-class">Image</li>
                                 </a>
                                 <a class="link-plain" href="/Components/navbar/navbar.html">
-                                        <li class="list-items link-active">Navigation</li>
+                                        <li class="list-items hover-class">Navigation</li>
                                 </a>
                                 <a class="link-plain" href="/Components/rating/rating.html">
                                         <li class="list-items hover-class">Rating</li>
                                 </a>
                                 <a class="link-plain" href="/Components/snackbar/snackbar.html">
-                                        <li class="list-items hover-class">Snackbar</li>
+                                        <li class="list-items link-active">Snackbar</li>
                                 </a>
                                 <a class="link-plain" href="/Components/typography/typography.html">
                                         <li class="list-items hover-class">Typography</li>
@@ -77,28 +77,20 @@
                         </ul>
         </aside>
         <main>
-                <h1>Navigation</h1>
-                <p> A navigation bar (also called a Navbar) is a user interface element within a webpage that contains
-                        links to
-                        other sections of the website</p>
-                <p class="text-gray">Below is an example</p>
-
-                <nav class="nav-bar nav-colored top">
-                        <!-- you can remove the nav-colored class and the navbar will become tranparent  -->
-
-                        <a href="#"><img class="hero-logo hover-class" src="/src/hero-logo.png" alt="logo"></a>
-                        <div class="nav-links">
-                                <a class="link-plain hover-class" href="#"> Docs</a>
-                                <a class="link-plain hover-class" href="#"><i class="fab fa-github"></i></a>
-                                <a class="link-plain hover-class" href="#"><i class="fab fa-linkedin"></i></a>
-                        </div>
-                </nav>
-
-                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522nav-bar%2520nav-colored%2520top%2522%253E%250A%2520%2520%2520%2520%253C%21--%2520you%2520can%2520remove%2520the%2520nav-colored%2520class%2520and%2520the%2520navbar%2520will%2520become%2520tranparent%2520%2520--%253E%250A%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cimg%2520class%253D%2522hero-logo%2520hover-class%2522%2520src%253D%2522%252Fsrc%252Fhero-logo.png%2522%2520alt%253D%2522logo%2522%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-links%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link-plain%2520hover-class%2522%2520href%253D%2522%2523%2522%253E%2520Docs%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link-plain%2520hover-class%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fab%2520fa-github%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link-plain%2520hover-class%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fab%2520fa-linkedin%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
-                        style="width: 900px; height: 385px; border:0; transform: scale(1); overflow:hidden;"
+                <h1>Snackbar</h1>
+                <p>Snackbars provide brief messages about app processes at the bottom of the screen.</p>
+                <p class="text-gray">The example can be viewed at the bottom right of the page</p>
+                <!-- for positioning the snackbar add proper positioning classes as mentioned in the Introduction -->
+                <div class="snack bottom-right">
+                        <!-- <div class="snack bottom-left"> -->
+                        Can't send photo, Retry in 5 seconds.
+                        <a href="#" class="snackbar-msg"> Retry </a>
+                        <i class="far fa-times-circle"></i>
+                </div>
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522snack%2520bottom-left%2522%253E%250A%2520%2520%2520%2520Can%27t%2520send%2520photo%252C%2520Retry%2520in%25205%2520seconds.%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522snackbar-msg%2522%253E%2520Retry%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 292px; border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                 </iframe>
-        </main>
 </body>
 
 </html>
