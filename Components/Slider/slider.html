@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Laxmikanth Konthum" />
+    <meta name="description" content="Elite UI is a library to provide ready-made components to the user" />
+    <title>Slider</title>
+    <link href="slider.css" rel="stylesheet">
+    <link href="/documentation/doc.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav-bar top">
+        <a href="/index.html" class="link-plain"><img class="hero-logo hover-class" src="/src/hero-logo.png"
+                alt="logo"></a>
+        <div class="nav-links">
+            <a class="link-plain hover-class" href="/documentation/doc.html">Documentation</a>
+            <a class="link-plain hover-class" href="https://github.com/laxmikanthkonthum"><i
+                    class="fab fa-github"></i></a>
+            <a class="link-plain hover-class" href="https://www.linkedin.com/in/laxmikanth-konthum-781b27158/"><i
+                    class="fab fa-linkedin"></i></a>
+        </div>
+    </nav>
+    <aside>
+
+        <div class="list-transparent text-centered">
+            <ul>
+                <a href="/documentation/doc.html" class="link-plain">
+                    <li class="list-items hover-class">Introduction</li>
+                </a>
+                <li class="list-items text-bold ">Components</li>
+                <a class="link-plain" href="/Components/alert/alert.html">
+                    <li class="list-items hover-class">
+                        Alert</li>
+                </a>
+                <a class="link-plain" href="/Components/button/button.html">
+                    <li class="list-items hover-class">Button</li>
+                </a>
+                <a class="link-plain" href="/Components/avatar/avatar.html">
+                    <li class="list-items hover-class">Avatar</li>
+                </a>
+                <a class="link-plain" href="/Components/badge/badge.html">
+                    <li class="list-items hover-class">Badge
+                    </li>
+                </a>
+                <a class="link-plain" href="/Components/cards.html">
+                    <li class="list-items hover-class">Cards
+                </a>
+                </li>
+                <a class="link-plain" href="/Components/input/input.html">
+                    <li class="list-items hover-class">Input</li>
+                </a>
+                <a class="link-plain" href="/Components/image/image.html">
+                    <li class="list-items hover-class">Image</li>
+                </a>
+                <a class="link-plain" href="/Components/navbar/navbar.html">
+                    <li class="list-items hover-class">Navigation</li>
+                </a>
+                <a class="link-plain" href="/Components/rating/rating.html">
+                    <li class="list-items hover-class">Rating</li>
+                </a>
+                <a class="link-plain" href="/Components/snackbar/snackbar.html">
+                    <li class="list-items hover-class">Snackbar</li>
+                </a>
+                <a class="link-plain" href="/Components/typography/typography.html">
+                    <li class="list-items hover-class">Typography</li>
+                </a>
+                <a class="link-plain" href="/Components/lists/lists.html">
+                    <li class="list-items hover-class">Lists
+                    </li>
+                </a>
+                <a class="link-plain" href="/Components/lists/slider.html">
+                    <li class="list-items link-active">Slider
+                    </li>
+                </a>
+            </ul>
+    </aside>
+    <main>
+        <h1>Slider</h1>
+        <p>Slider is used to input value based on a sliding element</p>
+        <p class="text-gray">Below is an example of a slider</p>
+        <div class="slider-container">
+            <input type="range" min="10" max="10000" step="100" class="slider">
+            <div class="slider-val"></div>
+        </div>
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520you%2520can%2520set%2520the%2520min%252C%2520max%2520and%2520step%2520values%2520as%2520required%2520--%253E%250A%253Cinput%2520type%253D%2522range%2522%2520min%253D%252210%2522%2520max%253D%252210000%2522%2520step%253D%2522100%2522%2520class%253D%2522slider%2522%253E%250A%253Cdiv%2520class%253D%2522slider-val%2522%253E%253C%252Fdiv%253E"
+            style="width: 100%; height: 255px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <p class="text-gray">Below is the JS part of the slider</p>
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=let%2520slider%2520%253D%2520document.querySelector%28%2522.slider%2522%29%253B%250Alet%2520op%2520%253D%2520document.querySelector%28%2522.slider-val%2522%29%253B%250Aslider.addEventListener%28%2522input%2522%252C%2520%28%29%2520%253D%253E%2520op.innerText%2520%253D%2520slider.value%29%253B"
+            style="width: 100%; height: 473px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </main>
+    <script src="slider.js"></script>
+</body>
+
+</html>
