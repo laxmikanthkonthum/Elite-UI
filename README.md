@@ -29,6 +29,7 @@ The Components that i have created are shown below: (More to Come)
 10. [Snackbar](https://elite-ui.netlify.app/components/snackbar/snackbar)
 11. [Typography](https://elite-ui.netlify.app/components/typography/typography)
 12. [Lists](https://elite-ui.netlify.app/components/lists/lists)
+13. [Slider](https://elite-ui.netlify.app/components/slider/slider)
 
 ## Authors
 
