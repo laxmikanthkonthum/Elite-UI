@@ -29,9 +29,13 @@ main{
 }
 
 .nav-links {
-    width: 40%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+.nav-links > a{
+    margin: 0 1rem;
 }
 body{
     display: unset;
