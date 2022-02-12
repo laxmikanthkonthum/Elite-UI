@@ -6,6 +6,7 @@ main > *{
 main{
    text-align: center;
    margin-left: 0;
+   margin-top: 50px;
 }
 .banner{
     height: 18rem;
