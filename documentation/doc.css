@@ -2,6 +2,7 @@
 body{
     display: grid;
     grid-template-columns: 15rem 1fr;
+    gap: 0;
     grid-template-areas:
     "nav nav"
     "aside main"
@@ -10,23 +11,32 @@ body{
 }
 nav{
     grid-area: nav;
+    border-bottom: 2px solid var(--primary);
+    box-shadow: 2px 2px var(--secondary-bg);
+    padding: 100px;
 }
 aside{
-    width: 18rem;
+    width: fit-content;
     grid-area: aside;
-    margin-top: 30px;
+    margin-top: 20px;
     height: 80vh;
     overflow : scroll;
     overflow-x: hidden;
 }
 main{
-    margin-top: 30px;
+    margin-top: 10px;
     grid-area: main;
-    margin-left: 4rem;
+    margin-left: 1rem;
     height: 80vh;
     overflow : scroll;
     overflow-x: hidden;
+    margin-left: 2rem;
 }
 main > *{
     padding: 1rem;
+}
+.nav-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

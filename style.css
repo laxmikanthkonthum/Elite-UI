@@ -45,7 +45,6 @@ body {
 .hover-class:hover {
     background-color: var(--secondary);
     cursor: pointer;
-    padding: 0.2rem;
     border-radius: 1rem;
 }
 
@@ -122,4 +121,8 @@ body {
 }
 .link-active{
     background-color: var(--primary);
+    border-radius: 1rem;
+}
+.text-primary{
+    color: var(--primary);
 }

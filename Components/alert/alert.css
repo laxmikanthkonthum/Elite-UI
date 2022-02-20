@@ -28,8 +28,20 @@
     background-color: var(--orange);
 }
 
-.alert-border {
+.alert-border-success {
     border: 2px solid var(--green);
     color: var(--green);
+    background-color: var(--white);
+}
+
+.alert-border-error {
+    border: 2px solid var(--red);
+    color: var(--red);
+    background-color: var(--white);
+}
+
+.alert-border-warning {
+    border: 2px solid var(--orange);
+    color: var(--orange);
     background-color: var(--white);
 }

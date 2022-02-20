@@ -4,7 +4,7 @@
 .list-group {
     background-color: var(--secondary-bg);
     width: 15rem;
-    list-style: none;
+    list-style-type: none;
 }
 
 .list-border{
@@ -31,5 +31,5 @@
 .list-transparent{
     width: 15rem;
     background-color: inherit;
-    list-style: none;
+    list-style-type: none;
 }
