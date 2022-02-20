@@ -122,4 +122,5 @@ body {
 }
 .link-active{
     background-color: var(--primary);
+    border-radius: 5px;
 }
