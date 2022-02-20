@@ -123,3 +123,6 @@ body {
     background-color: var(--primary);
     border-radius: 1rem;
 }
+.text-primary{
+    color: var(--primary);
+}

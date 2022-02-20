@@ -35,3 +35,8 @@ main{
 main > *{
     padding: 1rem;
 }
+.nav-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
