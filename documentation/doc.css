@@ -2,7 +2,6 @@
 body{
     display: grid;
     grid-template-columns: 15rem 1fr;
-    gap: 0;
     grid-template-areas:
     "nav nav"
     "aside main"
@@ -39,4 +38,41 @@ main > *{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media screen and (max-width: 640px){
+    body{
+    grid-template-columns: 6rem 1fr;
+    font-size: 62.5%;
+    }
+    main{
+        margin-left: 0;
+    }
+    .list-transparent{
+        text-align: left;
+        width: fit-content;
+    }
+    .hero-logo{
+        width: 6rem;
+    }
+    .list-items{
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    body{
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "nav"
+    "main"
+    "main"
+    "main";
+    }
+    aside{
+        display: none;
+    }
+    .hero-logo{
+        width: 4rem;
+    }
 }
