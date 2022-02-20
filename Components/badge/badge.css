@@ -1,20 +1,22 @@
 @import url(/style.css);
 
-.icon-container{
-    width: 30%;
+.icon-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     align-items: center;
+    gap: 2rem;
 }
-.badge-icon{
+
+.badge-icon {
     width: 2rem;
     height: 2rem;
 }
-.badge-on-icon{
+
+.badge-on-icon {
     position: relative;
 }
-.badge{
+
+.badge {
     position: absolute;
     color: white;
     top: -8px;
@@ -23,44 +25,54 @@
     height: 1.2rem;
     text-align: center;
 }
-.badge-red{
+
+.badge-red {
     background-color: var(--red);
 }
-.badge-green{
+
+.badge-green {
     background-color: var(--green);
 }
-.badge-black{
+
+.badge-black {
     background-color: var(--black);
 }
-.text{
+
+.text {
     background-color: var(--light-blue);
     width: max-content;
-    height: max-content; 
+    height: max-content;
     padding: 0.3rem;
     border-radius: 0.5rem;
     margin: 0;
 }
-.badge-purple{
+
+.badge-purple {
     background-color: var(--purple);
 }
-.avatar-with-status{
-    position: relative ;
+
+.avatar-with-status {
+    position: relative;
     display: inline-block;
 }
-.status{
-   height: 0.5rem;
-   width: 0.5rem;
-   border-radius: 50%;
-   position: absolute;
-   bottom: 0.2rem;
-   right: 0.1rem;
+
+.status {
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0.2rem;
+    right: 0.1rem;
 }
-.status-green{
+
+.status-green {
     background-color: var(--green);
 }
-.status-orange{
+
+.status-orange {
     background-color: var(--orange);
 }
-.status-red{
+
+.status-red {
     background-color: var(--red);
 }
