@@ -12,7 +12,6 @@ nav{
     grid-area: nav;
     border-bottom: 2px solid var(--primary);
     box-shadow: 2px 2px var(--secondary-bg);
-    padding: 100px;
 }
 aside{
     width: fit-content;

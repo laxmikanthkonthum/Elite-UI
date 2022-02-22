@@ -26,6 +26,8 @@ main {
     padding: 1rem 2.5rem;
     align-items: center;
     border-radius: 5px;
+    border-bottom: 2px solid var(--primary);
+    box-shadow: 2px 2px var(--secondary-bg);
 }
 
 .hero-logo {
