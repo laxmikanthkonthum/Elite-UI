@@ -16,3 +16,8 @@
     display: flex;
     justify-content: space-around;
 }
+.error-text{
+    background-color: var(--red);
+    padding: 1px;
+    color: white;
+}

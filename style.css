@@ -126,3 +126,8 @@ body {
 .text-primary{
     color: var(--primary);
 }
+
+.btn-hover:hover{
+    color:var(--snackbar-bg);
+    cursor: pointer;
+}
